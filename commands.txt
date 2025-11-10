@@ -8,3 +8,14 @@ cmd + shift + .   -> to see unhide file and folder in mac
 // but files in the folder still untracked
 
 git add fileName -> to enable track on a specific file
+// now tracking started in file <fileName>
+
+git diff         -> show the difference in files (what new adds{+} and what remove{-})
+
+git add .     -> to enable tracking on all files in the folder 
+
+git remove fileName   -> to disable tracking on a specific file in the folder
+
+git commit -m "mssg"  -> to save the changes along with a message
+
+git log   -> to see the history of commits
