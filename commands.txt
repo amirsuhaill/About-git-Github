@@ -1,0 +1,10 @@
+This is the Tutorial notes for git and Github
+
+
+git init          -> to initialize git in the folder (it makes .git hidden folder inside the folder)
+
+cmd + shift + .   -> to see unhide file and folder in mac
+
+// but files in the folder still untracked
+
+git add fileName -> to enable track on a specific file
