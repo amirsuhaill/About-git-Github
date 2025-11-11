@@ -34,7 +34,7 @@ git reset --hard <commit_id>  -> now head point to <commit_id> wali commit {one 
 git revert <commit_id>  -> commit_id wale changes ko revert kar k uska naya commit bana dega
 
 
-// github is a remote centralized server jahan p hum apna commit push kr sakte hein, un commits 
+// github is a centralized remote server jahan p hum apna commit push kr sakte hein, un commits 
 // ko koi bhi pull skta hai jisse code consistent rehta hai or ek history maintain rehti hai.
 
 
@@ -44,3 +44,9 @@ git remote add origin <url> -> remote origin has been setup
 git remote -v   -> to see the origins
 
 git push -u origin main  -> to push commit on origin
+
+git branch   -> to see which branch iam in
+
+git branch "branch-name" -> to make a new branch with name = "brach-name"
+
+git checkout <branchName>  -> go to another brach whose name in branchName
