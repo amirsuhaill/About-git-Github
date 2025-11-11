@@ -16,7 +16,7 @@ git add .     -> to enable tracking on all files in the folder
 
 git remove <fileName>   -> to disable tracking on a specific file in the folder
 
-git commit -m "mssg"  -> to save the changes along with a message
+git commit -m "mssg"  -> to save the changes along with a message (& git diff clear ho jayga)
 
 git log            -> to see the history of commits
 git log --oneline  -> to see the history of each commit in single line
@@ -24,3 +24,9 @@ git log --oneline  -> to see the history of each commit in single line
 git show <commitId>  -> to see the changes for specific commit
 
 git blame <fileName>  -> to see when who made what changes in the file(fileName)
+
+git status   -> tell which files are modified
+
+// i write something wrong in code
+
+git reset --hard <commit_id>  -> now head point to <commit_id> wali commit
