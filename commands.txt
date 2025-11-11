@@ -50,3 +50,6 @@ git branch   -> to see which branch iam in
 git branch "branch-name" -> to make a new branch with name = "brach-name"
 
 git checkout <branchName>  -> go to another brach whose name in branchName
+
+
+git push --set-upstream origin branch-2  -> first push in new branch (nayi branch remote p banayga and then push hoga)
