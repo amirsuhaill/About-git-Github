@@ -1,0 +1,46 @@
+This is the Tutorial notes for git and Github
+
+
+git init          -> to initialize git in the folder (it makes .git hidden folder inside the folder)
+
+cmd + shift + .   -> to see hidden file and folder in mac
+
+// but files in the folder still untracked
+
+git add <fileName> -> to enable tracking on a specific file
+// now tracking started in file <fileName>
+
+git diff         -> show the difference in files (what new adds{+} and what remove{-})
+
+git add .     -> to enable tracking on all files in the folder 
+
+git remove <fileName>   -> to disable tracking on a specific file in the folder
+
+git commit -m "mssg"  -> to save the changes along with a message (& git diff clear ho jayga)
+
+git log            -> to see the history of commits
+git log --oneline  -> to see the history of each commit in single line
+
+git show <commitId>  -> to see the changes for specific commit
+
+git blame <fileName>  -> to see when who made what changes in the file(fileName)
+
+git status   -> tell which files are modified
+
+// i write something wrong in code
+
+git reset --hard <commit_id>  -> now head point to <commit_id> wali commit {one way of reverting}
+
+git revert <commit_id>  -> commit_id wale changes ko revert kar k uska naya commit bana dega
+
+
+// github is a remote centralized server jahan p hum apna commit push kr sakte hein, un commits 
+// ko koi bhi pull skta hai jisse code consistent rehta hai or ek history maintain rehti hai.
+
+
+git branch -M main -> to swich into main branch
+
+git remote add origin <url> -> remote origin has been setup 
+git remote -v   -> to see the origins
+
+git push -u origin main  -> to push commit on origin
