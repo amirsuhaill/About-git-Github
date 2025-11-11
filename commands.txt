@@ -29,4 +29,5 @@ git status   -> tell which files are modified
 
 // i write something wrong in code
 
-git reset --hard <commit_id>  -> now head point to <commit_id> wali commit
+git reset --hard <commit_id>  -> now head point to <commit_id> wali commit {one way of reverting}
+
