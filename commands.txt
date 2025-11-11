@@ -53,3 +53,7 @@ git checkout <branchName>  -> go to another brach whose name in branchName
 
 
 git push --set-upstream origin branch-2  -> first push in new branch (nayi branch remote p banayga and then push hoga)
+
+git merge origin/<branchName> -> to merge branchName with current working branch
+
+git rebase <branchName>  -> <branchName> brnach current branc k sath linearly add ho jaygi (history maintein rehti hai brnach ki)
